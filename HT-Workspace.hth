@@ -58,11 +58,11 @@ GuiControl 2: Disable, Edit1
 
 HTHiframeScaleXbutton := boardW - 5 - 90
 HTHiframeScaleYbutton := EditY + 10 + 15
-HTHiframeScaleXedit := boardW - 10 - 155
+HTHiframeScaleXedit := boardW - 10 - 169
 HTHiframeScaleYedit := EditY + 5
 HTHiframeScaleEditText := "iframe scale = " . HTHiframeScale
 Gui, Font, s13
-Gui 2: Add, Edit, x%HTHiframeScaleXedit% y%HTHiframeScaleYedit% w155 h15 vHTHiframeScaleEdit gHTHiframeScaleEdit, %HTHiframeScaleEditText%
+Gui 2: Add, Edit, x%HTHiframeScaleXedit% y%HTHiframeScaleYedit% w169 h15 vHTHiframeScaleEdit gHTHiframeScaleEdit, %HTHiframeScaleEditText%
 Gui, Font, s18
 Gui 2: Add, Button, x%HTHiframeScaleXbutton% y%HTHiframeScaleYbutton% w90 h30 vHTHiframeScaleButton gHTHiframeScaleButton, Apply
 
